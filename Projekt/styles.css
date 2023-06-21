@@ -1,0 +1,169 @@
+/* styles.css */
+
+/* Resetowanie marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylowanie nagłówka */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Stylowanie menu nawigacyjnego */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#projectList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projectList li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#projectList a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#projectList a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Stylowanie sekcji rejestracji */
+#registration {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#registration h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#registrationForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#registrationForm input[type="text"],
+#registrationForm input[type="email"],
+#registrationForm input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#registrationForm button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Stylowanie sekcji listy uczestników */
+#participants {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#participants h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#participantsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#participantsTable th,
+#participantsTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#participantsTable th {
+    background-color: #333;
+    color: #fff;
+}
+
+#participantsTable td:last-child {
+    white-space: nowrap;
+}
+
+#participantsTable a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 5px;
+}
+
+#participantsTable button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#participantsTable button:hover {
+    background-color: #555;
+}
+
+/* Stylowanie sekcji edycji */
+#edit {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#edit h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#editor {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#editForm button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Stylowanie stopki */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
